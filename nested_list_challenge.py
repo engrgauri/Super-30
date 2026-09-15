@@ -11,6 +11,7 @@ print(students[2][2])
 # Print the complete record of Priya
 print(students[1])
 # Change Rahul's course to "AI"
+students[0][2] = "AI"
 print(students[0][2])
 # Add another student record manually
 students.append(["Gauri",29,"Generative AI"])
