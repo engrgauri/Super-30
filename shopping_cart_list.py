@@ -8,7 +8,7 @@ print(cart[0],cart[-1])
 cart.append("Webcam")
 print(cart)
 # Insert "USB Hub" at index 2
-cart.insert(2,"USB")
+cart.insert(2,"USB Hub")
 print(cart)
 # Remove "Mouse"
 cart.remove("Mouse")
@@ -17,11 +17,11 @@ print(cart)
 cart.pop()
 print(cart)
 # Find the index of "Monitor"
-cart.index("Monitor")
-print(cart)
+index_monitor = cart.index("Monitor")
+print(index_monitor)
 # Count occurrences of "Laptop"
-cart.count("Laptop")
-print(cart)
+count_laptop = cart.count("Laptop")
+print(count_laptop)
 # Create a copy of the cart
 cart_copy = cart.copy()
 print(cart)
